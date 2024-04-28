@@ -1,5 +1,12 @@
 {
   "item.monstermod.monster": "Monster",
+  "item.monstermod.aluminium_ingot": "Aluminium Ingot",
+  "item.monstermod.raw_aluminium": "Raw Aluminium",
 
-  "creativetab.monster_tab": "Monster Tab"
+  "block.monstermod.monster_block": "Monster Block",
+  "block.monstermod.aluminium_ore": "Aluminium Ore",
+
+  "creativetab.monster_tab": "Monster Tab",
+
+  "tooltip.monstermod.monster.tooltip": "Drink for a boost of speed"
 }
