@@ -21,6 +21,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MONSTER.get());
                         pOutput.accept(ModItems.ALUMINIUM_INGOT.get());
                         pOutput.accept(ModItems.RAW_ALUMINIUM.get());
+                        pOutput.accept(ModItems.ALUMINIUM_SHEET.get());
+                        pOutput.accept(ModItems.EMPTY_CAN.get());
 
                         pOutput.accept(ModBlocks.MONSTER_BLOCK.get());
                         pOutput.accept(ModBlocks.ALUMINIUM_ORE.get());

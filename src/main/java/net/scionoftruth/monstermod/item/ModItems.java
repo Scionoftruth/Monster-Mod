@@ -17,6 +17,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ALUMINIUM_SHEET = ITEMS.register("aluminium_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMPTY_CAN = ITEMS.register("empty_can",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

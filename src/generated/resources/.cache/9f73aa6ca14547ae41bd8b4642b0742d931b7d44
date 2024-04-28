@@ -1,0 +1,4 @@
+// 1.20.1	2024-04-28T14:50:20.8780046	Tags for minecraft:block mod id monstermod
+3ff861d17465649a0402faeda8e4f902fbb6b1c0 data/minecraft/tags/blocks/mineable/pickaxe.json
+3ff861d17465649a0402faeda8e4f902fbb6b1c0 data/minecraft/tags/blocks/needs_iron_tool.json
+3da7dc48194bc97e4e674eb1fd88bc02560074ad data/monstermod/tags/blocks/monster_ores.json

@@ -2,6 +2,8 @@
   "item.monstermod.monster": "Monster",
   "item.monstermod.aluminium_ingot": "Aluminium Ingot",
   "item.monstermod.raw_aluminium": "Raw Aluminium",
+  "item.monstermod.aluminium_sheet": "Aluminium Sheet",
+  "item.monstermod.empty_can": "Empty Can",
 
   "block.monstermod.monster_block": "Monster Block",
   "block.monstermod.aluminium_ore": "Aluminium Ore",
