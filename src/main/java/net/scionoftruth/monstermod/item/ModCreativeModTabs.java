@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.MONSTER_BLOCK.get());
                         pOutput.accept(ModBlocks.ALUMINIUM_ORE.get());
+                        pOutput.accept(ModBlocks.Sheet_Press.get());
                     })
                     .build());
 

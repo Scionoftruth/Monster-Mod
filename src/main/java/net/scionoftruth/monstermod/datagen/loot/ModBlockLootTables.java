@@ -25,6 +25,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.MONSTER_BLOCK.get());
+        this.dropSelf(ModBlocks.Sheet_Press.get());
 
         this.add(ModBlocks.ALUMINIUM_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.ALUMINIUM_ORE.get(), ModItems.RAW_ALUMINIUM.get()));

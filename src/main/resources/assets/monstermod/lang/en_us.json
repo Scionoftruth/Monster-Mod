@@ -8,6 +8,8 @@
   "block.monstermod.monster_block": "Monster Block",
   "block.monstermod.aluminium_ore": "Aluminium Ore",
 
+  "block.monstermod.sheet_press": "Sheet Press",
+
   "creativetab.monster_tab": "Monster Tab",
 
   "tooltip.monstermod.monster.tooltip": "Drink for a boost of speed"

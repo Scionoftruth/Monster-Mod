@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.scionoftruth.monstermod.MonsterMod;
+import net.scionoftruth.monstermod.block.custom.SheetPressBlock;
 import net.scionoftruth.monstermod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -27,6 +28,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ALUMINIUM_ORE = registerBlock("aluminium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+
+    public static final RegistryObject<Block> Sheet_Press = registerBlock("sheet_press",
+            () -> new SheetPressBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
