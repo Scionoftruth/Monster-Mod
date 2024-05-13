@@ -1,0 +1,12 @@
+{
+  "type": "monstermod:sheet_press",
+  "ingredients": [
+    {
+      "item": "monstermod:aluminium_ingot"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item":"monstermod:aluminium_sheet"
+  }
+}

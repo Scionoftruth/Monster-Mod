@@ -17,6 +17,7 @@ import net.scionoftruth.monstermod.block.ModBlocks;
 import net.scionoftruth.monstermod.block.entity.ModBlockEntities;
 import net.scionoftruth.monstermod.item.ModCreativeModTabs;
 import net.scionoftruth.monstermod.item.ModItems;
+import net.scionoftruth.monstermod.recipe.ModRecipes;
 import net.scionoftruth.monstermod.screen.ModMenuTypes;
 import net.scionoftruth.monstermod.screen.SheetPressScreen;
 import org.slf4j.Logger;
@@ -25,9 +26,7 @@ import org.slf4j.Logger;
 @Mod(MonsterMod.MOD_ID)
 public class MonsterMod
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "monstermod";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public MonsterMod()
@@ -41,6 +40,8 @@ public class MonsterMod
 
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

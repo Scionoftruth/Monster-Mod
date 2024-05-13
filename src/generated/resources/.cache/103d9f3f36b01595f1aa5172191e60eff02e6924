@@ -1,0 +1,4 @@
+// 1.20.1	2024-05-12T17:01:05.6428001	Registries
+4feb7e8846226c388f888722a70ecda16b072808 data/monstermod/forge/biome_modifier/add_aluminium_ore.json
+0871dfb05b1673e2b3511c49da4931b5eb36c6a8 data/monstermod/worldgen/configured_feature/aluminium_ore.json
+8445a945b152fd6224ab1fd66f59e9792a3335a7 data/monstermod/worldgen/placed_feature/aluminium_ore_placed.json
